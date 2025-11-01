@@ -209,35 +209,40 @@ def task5_prioritization():
 if __name__ == "__main__":
     
     print("RUNNING ALL TASKS SEQUENTIALLY \n")
-    
+    print("\n" + "\n")
     # Task 1
     task1_create_processes(n=3)
     time.sleep(2) 
-    print("\n")
+    print("\n" + "\n")
 
+    print("\n" + "\n")
     # Task 2
     task2_command_execution(command="ls")
     time.sleep(2)
-    print("\n")
+    print("\n" + "\n")
 
+
+    print("\n" + "\n")
     # Task 3 (Zombie)
     print("NOTE: Task 3 (Zombie) will pause for 30 seconds.")
     print("In another terminal, run: ps -el | grep defunct")
     task3_zombie_process()
     time.sleep(2)
-    print("\n")
+    print("\n" + "\n")
 
+    print("\n" + "\n")
     # Task 4
     my_pid = os.getpid()
     print(f"NOTE: Running Task 4 on current process (PID: {my_pid}).")
     task4_inspect_proc(my_pid)
     time.sleep(2)
-    print("\n")
-    
+    print("\n" + "\n")
+
+    print("\n" + "\n")
     # Task 5 
     print("NOTE: Task 5 will run CPU-intensive tasks.")
     task5_prioritization()
-    print("\n")
+    print("\n" + "\n")
     
     print("NOTE: Task 3 (Orphan) was skipped because it is designed to")
     print("terminate the script. To test it, run it separately.")    
