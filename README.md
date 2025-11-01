@@ -62,16 +62,10 @@ jupyter notebook Labs-assignment-1.ipynb
 - Observe parent/child scheduling and ordering.
 - See how a process becomes a zombie and how reaping (via `wait()`/`waitpid()`) removes zombies.
 
-## Notes & known issues
-
-- Filenames: `lab-assingment-1.py` contains a spelling mistake in "assignment". If desired, rename and update references.
-- The `output/` folder contains binaries created on the developer's machine; recompile on your machine for a reproducible build.
-
 ## Author / Contact
 
 Author: Jayant Parashar
 
-If this is part of a coursework submission, include your name, roll number, and any required metadata here before submitting.
 
 ## License
 
